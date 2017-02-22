@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Visualize Crime Data</title>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.26.0/mapbox-gl.css' rel='stylesheet' />
+</head>
+
+<body>
+
+    <div id='map' style='width: 800px; height: 500px;'></div>
+</body>
+
+<script src="/socket.io/socket.io.js"></script>
+
+<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+
+<script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.26.0/mapbox-gl.js"></script>
+
+<script type="text/javascript">
+    var socket = io();
+
+    var map, marker;
+    mapboxgl.accessToken = '<INSERT YOUR TOKEN HERE>';
+
+    $.ajax({
+        url: '/requests/info',
+        type: 'GET',
+        dataType: 'json',
+        success: function(data) {
+            console.log(data);
+            var map = new mapboxgl.Map({
+                container: 'map',
+                style: 'mapbox://styles/mapbox/dark-v9',
+                center: [77.64115449999997, 12.9718915],
+                zoom: 10
+            });
+
+
+            map.on('load', function() {
+
+                map.addSource("help-requests", {
+                    type: "geojson",
+                    data: data
+                });
+                map.addLayer({
+                    "id": "help-requests",
+                    "type": "circle",
+                    "source": "help-requests",
+                    "paint": {
+                        'circle-color': {
+                            property: 'status',
+                            type: 'categorical',
+                            stops: [
+                                ['waiting', 'rgba(255,0,0,0.5)'],
+                                ['engaged', 'rgba(0,255,0,0.5)']
+                            ]
+                        },
+                        "circle-radius": 20,
+                        "circle-blur": 1 
+                    }
+                });
+            });
+
+        },
+        error: function(httpRequest, status, error) {
+            console.log(error);
+        }
+    });
+</script>
+
+</html>

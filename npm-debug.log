@@ -1,0 +1,700 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--python=python2.7',
+1 verbose cli   '--msvs_version=2010' ]
+2 info using npm@2.15.9
+3 info using node@v4.6.1
+4 verbose readDependencies loading dependencies from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\package.json
+5 verbose install where, deps [ 'C:\\node projects\\code-samples-master\\blog-posts\\how-to-build-your-own-uber-for-x-app',
+5 verbose install   [ 'async',
+5 verbose install     'bcrypt',
+5 verbose install     'body-parser',
+5 verbose install     'connect-redis',
+5 verbose install     'consolidate',
+5 verbose install     'cookie-parser',
+5 verbose install     'debug',
+5 verbose install     'express',
+5 verbose install     'express-session',
+5 verbose install     'googlemaps',
+5 verbose install     'jsx-loader',
+5 verbose install     'mongodb',
+5 verbose install     'nodemailer',
+5 verbose install     'react',
+5 verbose install     'redis',
+5 verbose install     'serve-favicon',
+5 verbose install     'socket.io',
+5 verbose install     'underscore' ] ]
+6 verbose install where, peers [ 'C:\\node projects\\code-samples-master\\blog-posts\\how-to-build-your-own-uber-for-x-app',
+6 verbose install   [] ]
+7 verbose installManyTop reading for lifecycle C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\package.json
+8 info preinstall myapp@0.0.1
+9 verbose installManyTop reading scoped package data from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\async\package.json
+10 verbose installManyTop reading scoped package data from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\body-parser\package.json
+11 verbose installManyTop reading scoped package data from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\connect-redis\package.json
+12 verbose installManyTop reading scoped package data from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\consolidate\package.json
+13 verbose installManyTop reading scoped package data from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\cookie-parser\package.json
+14 verbose installManyTop reading scoped package data from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\debug\package.json
+15 verbose installManyTop reading scoped package data from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\express\package.json
+16 verbose installManyTop reading scoped package data from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\express-session\package.json
+17 verbose installManyTop reading scoped package data from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\googlemaps\package.json
+18 verbose installManyTop reading scoped package data from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\jsx-loader\package.json
+19 verbose installManyTop reading scoped package data from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\mongodb\package.json
+20 verbose installManyTop reading scoped package data from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\nodemailer\package.json
+21 verbose installManyTop reading scoped package data from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\react\package.json
+22 verbose installManyTop reading scoped package data from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\redis\package.json
+23 verbose installManyTop reading scoped package data from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\serve-favicon\package.json
+24 verbose installManyTop reading scoped package data from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\socket.io\package.json
+25 verbose installManyTop reading scoped package data from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\underscore\package.json
+26 info package.json jsx-loader@0.13.2 license should be a valid SPDX license expression
+27 verbose readDependencies loading dependencies from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\package.json
+28 verbose targetResolver reading package data from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\async\package.json
+29 verbose targetResolver reading package data from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\body-parser\package.json
+30 verbose targetResolver reading package data from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\connect-redis\package.json
+31 verbose targetResolver reading package data from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\consolidate\package.json
+32 verbose targetResolver reading package data from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\cookie-parser\package.json
+33 verbose targetResolver reading package data from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\debug\package.json
+34 verbose targetResolver reading package data from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\express\package.json
+35 verbose targetResolver reading package data from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\express-session\package.json
+36 verbose targetResolver reading package data from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\googlemaps\package.json
+37 verbose targetResolver reading package data from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\jsx-loader\package.json
+38 verbose targetResolver reading package data from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\mongodb\package.json
+39 verbose targetResolver reading package data from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\nodemailer\package.json
+40 verbose targetResolver reading package data from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\react\package.json
+41 verbose targetResolver reading package data from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\redis\package.json
+42 verbose targetResolver reading package data from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\serve-favicon\package.json
+43 verbose targetResolver reading package data from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\socket.io\package.json
+44 verbose targetResolver reading package data from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\underscore\package.json
+45 verbose already installed skipping cookie-parser@^1.4.0 C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app
+46 verbose already installed skipping debug@^2.2.0 C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app
+47 verbose already installed skipping express@^4.13.3 C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app
+48 verbose already installed skipping express-session@^1.11.3 C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app
+49 verbose already installed skipping googlemaps@^1.0.2 C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app
+50 verbose already installed skipping jsx-loader@^0.13.2 C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app
+51 verbose already installed skipping mongodb@^2.0.43 C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app
+52 verbose already installed skipping nodemailer@^1.5.0 C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app
+53 verbose already installed skipping react@^0.13.3 C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app
+54 verbose already installed skipping redis@^2.0.1 C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app
+55 verbose already installed skipping serve-favicon@^2.3.0 C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app
+56 verbose already installed skipping socket.io@^1.3.7 C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app
+57 verbose already installed skipping underscore@^1.8.3 C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app
+58 verbose already installed skipping async@^1.4.2 C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app
+59 silly cache add args [ 'bcrypt@^0.8.5', null ]
+60 verbose cache add spec bcrypt@^0.8.5
+61 silly cache add parsed spec Result {
+61 silly cache add   raw: 'bcrypt@^0.8.5',
+61 silly cache add   scope: null,
+61 silly cache add   name: 'bcrypt',
+61 silly cache add   rawSpec: '^0.8.5',
+61 silly cache add   spec: '>=0.8.5 <0.9.0',
+61 silly cache add   type: 'range' }
+62 silly addNamed bcrypt@>=0.8.5 <0.9.0
+63 verbose addNamed ">=0.8.5 <0.9.0" is a valid semver range for bcrypt
+64 silly addNameRange { name: 'bcrypt', range: '>=0.8.5 <0.9.0', hasData: false }
+65 silly mapToRegistry name bcrypt
+66 silly mapToRegistry using default registry
+67 silly mapToRegistry registry https://registry.npmjs.org/
+68 silly mapToRegistry data Result {
+68 silly mapToRegistry   raw: 'bcrypt',
+68 silly mapToRegistry   scope: null,
+68 silly mapToRegistry   name: 'bcrypt',
+68 silly mapToRegistry   rawSpec: '',
+68 silly mapToRegistry   spec: 'latest',
+68 silly mapToRegistry   type: 'tag' }
+69 silly mapToRegistry uri https://registry.npmjs.org/bcrypt
+70 verbose addNameRange registry:https://registry.npmjs.org/bcrypt not in flight; fetching
+71 verbose already installed skipping body-parser@^1.14.1 C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app
+72 verbose already installed skipping connect-redis@^2.5.1 C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app
+73 verbose already installed skipping consolidate@^0.13.1 C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app
+74 verbose request uri https://registry.npmjs.org/bcrypt
+75 verbose request no auth needed
+76 info attempt registry request try #1 at 11:20:43 PM
+77 verbose request id c9b191e18d840e47
+78 verbose etag W/"58a19670-16d95"
+79 verbose lastModified Mon, 13 Feb 2017 11:20:16 GMT
+80 http request GET https://registry.npmjs.org/bcrypt
+81 http 304 https://registry.npmjs.org/bcrypt
+82 verbose headers { date: 'Mon, 20 Feb 2017 17:50:42 GMT',
+82 verbose headers   via: '1.1 varnish',
+82 verbose headers   'cache-control': 'max-age=300',
+82 verbose headers   etag: 'W/"58a19670-16d95"',
+82 verbose headers   age: '280',
+82 verbose headers   connection: 'keep-alive',
+82 verbose headers   'x-served-by': 'cache-ams4427-AMS',
+82 verbose headers   'x-cache': 'HIT',
+82 verbose headers   'x-cache-hits': '1',
+82 verbose headers   'x-timer': 'S1487613042.521307,VS0,VE0',
+82 verbose headers   vary: 'Accept-Encoding' }
+83 silly get cb [ 304,
+83 silly get   { date: 'Mon, 20 Feb 2017 17:50:42 GMT',
+83 silly get     via: '1.1 varnish',
+83 silly get     'cache-control': 'max-age=300',
+83 silly get     etag: 'W/"58a19670-16d95"',
+83 silly get     age: '280',
+83 silly get     connection: 'keep-alive',
+83 silly get     'x-served-by': 'cache-ams4427-AMS',
+83 silly get     'x-cache': 'HIT',
+83 silly get     'x-cache-hits': '1',
+83 silly get     'x-timer': 'S1487613042.521307,VS0,VE0',
+83 silly get     vary: 'Accept-Encoding' } ]
+84 verbose etag https://registry.npmjs.org/bcrypt from cache
+85 verbose get saving bcrypt to C:\Users\avi kalra\AppData\Roaming\npm-cache\registry.npmjs.org\bcrypt\.cache.json
+86 verbose correctMkdir C:\Users\avi kalra\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+87 silly addNameRange number 2 { name: 'bcrypt', range: '>=0.8.5 <0.9.0', hasData: true }
+88 silly addNameRange versions [ 'bcrypt',
+88 silly addNameRange   [ '0.1.2',
+88 silly addNameRange     '0.2.0',
+88 silly addNameRange     '0.2.1',
+88 silly addNameRange     '0.1.3',
+88 silly addNameRange     '0.2.2',
+88 silly addNameRange     '0.2.3',
+88 silly addNameRange     '0.2.4',
+88 silly addNameRange     '0.3.0',
+88 silly addNameRange     '0.3.1',
+88 silly addNameRange     '0.3.2',
+88 silly addNameRange     '0.4.0',
+88 silly addNameRange     '0.4.1',
+88 silly addNameRange     '0.5.0',
+88 silly addNameRange     '0.6.0',
+88 silly addNameRange     '0.7.0',
+88 silly addNameRange     '0.7.1',
+88 silly addNameRange     '0.7.2',
+88 silly addNameRange     '0.7.3',
+88 silly addNameRange     '0.7.4',
+88 silly addNameRange     '0.7.5',
+88 silly addNameRange     '0.7.6',
+88 silly addNameRange     '0.7.7',
+88 silly addNameRange     '0.7.8',
+88 silly addNameRange     '0.8.0',
+88 silly addNameRange     '0.8.1',
+88 silly addNameRange     '0.8.2',
+88 silly addNameRange     '0.8.3',
+88 silly addNameRange     '0.8.4',
+88 silly addNameRange     '0.8.5',
+88 silly addNameRange     '0.8.6',
+88 silly addNameRange     '0.8.7',
+88 silly addNameRange     '1.0.0',
+88 silly addNameRange     '1.0.1',
+88 silly addNameRange     '1.0.2' ] ]
+89 silly addNamed bcrypt@0.8.7
+90 verbose addNamed "0.8.7" is a plain semver version for bcrypt
+91 silly cache afterAdd bcrypt@0.8.7
+92 verbose afterAdd C:\Users\avi kalra\AppData\Roaming\npm-cache\bcrypt\0.8.7\package\package.json not in flight; writing
+93 verbose correctMkdir C:\Users\avi kalra\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+94 verbose afterAdd C:\Users\avi kalra\AppData\Roaming\npm-cache\bcrypt\0.8.7\package\package.json written
+95 silly install resolved [ { name: 'bcrypt',
+95 silly install resolved     description: 'A bcrypt library for NodeJS.',
+95 silly install resolved     keywords:
+95 silly install resolved      [ 'bcrypt',
+95 silly install resolved        'password',
+95 silly install resolved        'auth',
+95 silly install resolved        'authentication',
+95 silly install resolved        'encryption',
+95 silly install resolved        'crypt',
+95 silly install resolved        'crypto' ],
+95 silly install resolved     main: './bcrypt',
+95 silly install resolved     version: '0.8.7',
+95 silly install resolved     author: { name: 'Nick Campbell', url: 'https://github.com/ncb000gt' },
+95 silly install resolved     engines: { node: '>= 0.6.0' },
+95 silly install resolved     repository:
+95 silly install resolved      { type: 'git',
+95 silly install resolved        url: 'git+https://github.com/ncb000gt/node.bcrypt.js.git' },
+95 silly install resolved     license: 'MIT',
+95 silly install resolved     bugs: { url: 'https://github.com/ncb000gt/node.bcrypt.js/issues' },
+95 silly install resolved     scripts:
+95 silly install resolved      { test: 'node-gyp configure build && nodeunit test',
+95 silly install resolved        install: 'node-gyp rebuild' },
+95 silly install resolved     dependencies: { bindings: '1.2.1', nan: '2.3.5' },
+95 silly install resolved     devDependencies: { nodeunit: '~0.9.1' },
+95 silly install resolved     contributors:
+95 silly install resolved      [ [Object],
+95 silly install resolved        [Object],
+95 silly install resolved        [Object],
+95 silly install resolved        [Object],
+95 silly install resolved        [Object],
+95 silly install resolved        [Object],
+95 silly install resolved        [Object],
+95 silly install resolved        [Object],
+95 silly install resolved        [Object],
+95 silly install resolved        [Object],
+95 silly install resolved        [Object],
+95 silly install resolved        [Object],
+95 silly install resolved        [Object],
+95 silly install resolved        [Object] ],
+95 silly install resolved     gypfile: true,
+95 silly install resolved     gitHead: '0dc9b78dab6980d129b77d1df723aa44daa7deb4',
+95 silly install resolved     homepage: 'https://github.com/ncb000gt/node.bcrypt.js#readme',
+95 silly install resolved     _id: 'bcrypt@0.8.7',
+95 silly install resolved     _shasum: 'bc3875a9afd0a7b2cd231a6a7f218a5ce156b093',
+95 silly install resolved     _from: 'bcrypt@>=0.8.5 <0.9.0',
+95 silly install resolved     _npmVersion: '3.8.9',
+95 silly install resolved     _nodeVersion: '6.2.0',
+95 silly install resolved     _npmUser: { name: 'defunctzombie', email: 'shtylman@gmail.com' },
+95 silly install resolved     dist:
+95 silly install resolved      { shasum: 'bc3875a9afd0a7b2cd231a6a7f218a5ce156b093',
+95 silly install resolved        tarball: 'https://registry.npmjs.org/bcrypt/-/bcrypt-0.8.7.tgz' },
+95 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+95 silly install resolved     _npmOperationalInternal:
+95 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+95 silly install resolved        tmp: 'tmp/bcrypt-0.8.7.tgz_1465526713712_0.05265477881766856' },
+95 silly install resolved     directories: {},
+95 silly install resolved     _resolved: 'https://registry.npmjs.org/bcrypt/-/bcrypt-0.8.7.tgz',
+95 silly install resolved     readme: 'ERROR: No README data found!' } ]
+96 info install bcrypt@0.8.7 into C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app
+97 info installOne bcrypt@0.8.7
+98 verbose installOne of bcrypt to C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app not in flight; installing
+99 verbose correctMkdir C:\Users\avi kalra\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+100 verbose lock using C:\Users\avi kalra\AppData\Roaming\npm-cache\_locks\bcrypt-40c3eb22f606a9fc.lock for C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt
+101 silly install write writing bcrypt 0.8.7 to C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt
+102 verbose unbuild node_modules\bcrypt
+103 silly gentlyRm C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt is being purged from base C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app
+104 verbose gentlyRm don't care about contents; nuking C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt
+105 verbose tar unpack C:\Users\avi kalra\AppData\Roaming\npm-cache\bcrypt\0.8.7\package.tgz
+106 verbose tar unpacking to C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt
+107 silly gentlyRm C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt is being purged
+108 verbose gentlyRm don't care about contents; nuking C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt
+109 silly gunzTarPerm modes [ '777', '666' ]
+110 silly gunzTarPerm extractEntry package.json
+111 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+112 silly gunzTarPerm extractEntry .npmignore
+113 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+114 silly gunzTarPerm extractEntry README.md
+115 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+116 silly gunzTarPerm extractEntry LICENSE
+117 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+118 silly gunzTarPerm extractEntry bcrypt.js
+119 silly gunzTarPerm modified mode [ 'bcrypt.js', 420, 438 ]
+120 silly gunzTarPerm extractEntry Makefile
+121 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+122 silly gunzTarPerm extractEntry .travis.yml
+123 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+124 silly gunzTarPerm extractEntry CHANGELOG.md
+125 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+126 silly gunzTarPerm extractEntry binding.gyp
+127 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+128 silly gunzTarPerm extractEntry examples/async_compare.js
+129 silly gunzTarPerm modified mode [ 'examples/async_compare.js', 420, 438 ]
+130 silly gunzTarPerm extractEntry examples/forever_gen_salt.js
+131 silly gunzTarPerm modified mode [ 'examples/forever_gen_salt.js', 420, 438 ]
+132 silly gunzTarPerm extractEntry test/async.js
+133 silly gunzTarPerm modified mode [ 'test/async.js', 420, 438 ]
+134 silly gunzTarPerm extractEntry test/repetitions.js
+135 silly gunzTarPerm modified mode [ 'test/repetitions.js', 420, 438 ]
+136 silly gunzTarPerm extractEntry test/sync.js
+137 silly gunzTarPerm modified mode [ 'test/sync.js', 420, 438 ]
+138 silly gunzTarPerm extractEntry ISSUE_TEMPLATE.md
+139 silly gunzTarPerm modified mode [ 'ISSUE_TEMPLATE.md', 420, 438 ]
+140 silly gunzTarPerm extractEntry src/bcrypt.cc
+141 silly gunzTarPerm modified mode [ 'src/bcrypt.cc', 420, 438 ]
+142 silly gunzTarPerm extractEntry src/bcrypt_node.cc
+143 silly gunzTarPerm modified mode [ 'src/bcrypt_node.cc', 420, 438 ]
+144 silly gunzTarPerm extractEntry src/blowfish.cc
+145 silly gunzTarPerm modified mode [ 'src/blowfish.cc', 420, 438 ]
+146 silly gunzTarPerm extractEntry src/node_blf.h
+147 silly gunzTarPerm modified mode [ 'src/node_blf.h', 420, 438 ]
+148 silly gunzTarPerm extractEntry werker.yml
+149 silly gunzTarPerm modified mode [ 'werker.yml', 420, 438 ]
+150 verbose write writing to C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt\package.json
+151 info preinstall bcrypt@0.8.7
+152 verbose readDependencies loading dependencies from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt\package.json
+153 silly prepareForInstallMany adding bindings@1.2.1 from bcrypt dependencies
+154 silly prepareForInstallMany adding nan@2.3.5 from bcrypt dependencies
+155 verbose readDependencies loading dependencies from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt\package.json
+156 silly cache add args [ 'nan@2.3.5', null ]
+157 verbose cache add spec nan@2.3.5
+158 silly cache add parsed spec Result {
+158 silly cache add   raw: 'nan@2.3.5',
+158 silly cache add   scope: null,
+158 silly cache add   name: 'nan',
+158 silly cache add   rawSpec: '2.3.5',
+158 silly cache add   spec: '2.3.5',
+158 silly cache add   type: 'version' }
+159 silly addNamed nan@2.3.5
+160 verbose addNamed "2.3.5" is a plain semver version for nan
+161 silly mapToRegistry name nan
+162 silly mapToRegistry using default registry
+163 silly mapToRegistry registry https://registry.npmjs.org/
+164 silly mapToRegistry data Result {
+164 silly mapToRegistry   raw: 'nan',
+164 silly mapToRegistry   scope: null,
+164 silly mapToRegistry   name: 'nan',
+164 silly mapToRegistry   rawSpec: '',
+164 silly mapToRegistry   spec: 'latest',
+164 silly mapToRegistry   type: 'tag' }
+165 silly mapToRegistry uri https://registry.npmjs.org/nan
+166 verbose addNameVersion registry:https://registry.npmjs.org/nan not in flight; fetching
+167 silly cache add args [ 'bindings@1.2.1', null ]
+168 verbose cache add spec bindings@1.2.1
+169 silly cache add parsed spec Result {
+169 silly cache add   raw: 'bindings@1.2.1',
+169 silly cache add   scope: null,
+169 silly cache add   name: 'bindings',
+169 silly cache add   rawSpec: '1.2.1',
+169 silly cache add   spec: '1.2.1',
+169 silly cache add   type: 'version' }
+170 silly addNamed bindings@1.2.1
+171 verbose addNamed "1.2.1" is a plain semver version for bindings
+172 silly mapToRegistry name bindings
+173 silly mapToRegistry using default registry
+174 silly mapToRegistry registry https://registry.npmjs.org/
+175 silly mapToRegistry data Result {
+175 silly mapToRegistry   raw: 'bindings',
+175 silly mapToRegistry   scope: null,
+175 silly mapToRegistry   name: 'bindings',
+175 silly mapToRegistry   rawSpec: '',
+175 silly mapToRegistry   spec: 'latest',
+175 silly mapToRegistry   type: 'tag' }
+176 silly mapToRegistry uri https://registry.npmjs.org/bindings
+177 verbose addNameVersion registry:https://registry.npmjs.org/bindings not in flight; fetching
+178 verbose request uri https://registry.npmjs.org/nan
+179 verbose request no auth needed
+180 info attempt registry request try #1 at 11:20:44 PM
+181 verbose etag W/"58a44b6b-1df62"
+182 verbose lastModified Wed, 15 Feb 2017 12:36:59 GMT
+183 http request GET https://registry.npmjs.org/nan
+184 verbose request uri https://registry.npmjs.org/bindings
+185 verbose request no auth needed
+186 info attempt registry request try #1 at 11:20:44 PM
+187 verbose etag W/"580645d3-46f7"
+188 verbose lastModified Tue, 18 Oct 2016 15:54:59 GMT
+189 http request GET https://registry.npmjs.org/bindings
+190 http 304 https://registry.npmjs.org/nan
+191 verbose headers { date: 'Mon, 20 Feb 2017 17:50:43 GMT',
+191 verbose headers   via: '1.1 varnish',
+191 verbose headers   'cache-control': 'max-age=300',
+191 verbose headers   etag: 'W/"58a44b6b-1df62"',
+191 verbose headers   age: '197',
+191 verbose headers   connection: 'keep-alive',
+191 verbose headers   'x-served-by': 'cache-ams4427-AMS',
+191 verbose headers   'x-cache': 'HIT',
+191 verbose headers   'x-cache-hits': '3',
+191 verbose headers   'x-timer': 'S1487613043.000209,VS0,VE0',
+191 verbose headers   vary: 'Accept-Encoding' }
+192 silly get cb [ 304,
+192 silly get   { date: 'Mon, 20 Feb 2017 17:50:43 GMT',
+192 silly get     via: '1.1 varnish',
+192 silly get     'cache-control': 'max-age=300',
+192 silly get     etag: 'W/"58a44b6b-1df62"',
+192 silly get     age: '197',
+192 silly get     connection: 'keep-alive',
+192 silly get     'x-served-by': 'cache-ams4427-AMS',
+192 silly get     'x-cache': 'HIT',
+192 silly get     'x-cache-hits': '3',
+192 silly get     'x-timer': 'S1487613043.000209,VS0,VE0',
+192 silly get     vary: 'Accept-Encoding' } ]
+193 verbose etag https://registry.npmjs.org/nan from cache
+194 verbose get saving nan to C:\Users\avi kalra\AppData\Roaming\npm-cache\registry.npmjs.org\nan\.cache.json
+195 verbose correctMkdir C:\Users\avi kalra\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+196 silly cache afterAdd nan@2.3.5
+197 verbose afterAdd C:\Users\avi kalra\AppData\Roaming\npm-cache\nan\2.3.5\package\package.json not in flight; writing
+198 verbose correctMkdir C:\Users\avi kalra\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+199 verbose afterAdd C:\Users\avi kalra\AppData\Roaming\npm-cache\nan\2.3.5\package\package.json written
+200 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.0.162:443
+201 info attempt registry request try #2 at 11:21:15 PM
+202 verbose etag W/"580645d3-46f7"
+203 verbose lastModified Tue, 18 Oct 2016 15:54:59 GMT
+204 http request GET https://registry.npmjs.org/bindings
+205 http 304 https://registry.npmjs.org/bindings
+206 verbose headers { date: 'Mon, 20 Feb 2017 17:51:14 GMT',
+206 verbose headers   via: '1.1 varnish',
+206 verbose headers   'cache-control': 'max-age=300',
+206 verbose headers   etag: 'W/"580645d3-46f7"',
+206 verbose headers   age: '80',
+206 verbose headers   connection: 'keep-alive',
+206 verbose headers   'x-served-by': 'cache-ams4427-AMS',
+206 verbose headers   'x-cache': 'HIT',
+206 verbose headers   'x-cache-hits': '1',
+206 verbose headers   'x-timer': 'S1487613074.074881,VS0,VE0',
+206 verbose headers   vary: 'Accept-Encoding' }
+207 silly get cb [ 304,
+207 silly get   { date: 'Mon, 20 Feb 2017 17:51:14 GMT',
+207 silly get     via: '1.1 varnish',
+207 silly get     'cache-control': 'max-age=300',
+207 silly get     etag: 'W/"580645d3-46f7"',
+207 silly get     age: '80',
+207 silly get     connection: 'keep-alive',
+207 silly get     'x-served-by': 'cache-ams4427-AMS',
+207 silly get     'x-cache': 'HIT',
+207 silly get     'x-cache-hits': '1',
+207 silly get     'x-timer': 'S1487613074.074881,VS0,VE0',
+207 silly get     vary: 'Accept-Encoding' } ]
+208 verbose etag https://registry.npmjs.org/bindings from cache
+209 verbose get saving bindings to C:\Users\avi kalra\AppData\Roaming\npm-cache\registry.npmjs.org\bindings\.cache.json
+210 verbose correctMkdir C:\Users\avi kalra\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+211 silly cache afterAdd bindings@1.2.1
+212 verbose afterAdd C:\Users\avi kalra\AppData\Roaming\npm-cache\bindings\1.2.1\package\package.json not in flight; writing
+213 verbose correctMkdir C:\Users\avi kalra\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+214 verbose afterAdd C:\Users\avi kalra\AppData\Roaming\npm-cache\bindings\1.2.1\package\package.json written
+215 silly install resolved [ { name: 'nan',
+215 silly install resolved     version: '2.3.5',
+215 silly install resolved     description: 'Native Abstractions for Node.js: C++ header for Node 0.8 -> 6 compatibility',
+215 silly install resolved     main: 'include_dirs.js',
+215 silly install resolved     repository: { type: 'git', url: 'git://github.com/nodejs/nan.git' },
+215 silly install resolved     scripts:
+215 silly install resolved      { test: 'tap --gc --stderr test/js/*-test.js',
+215 silly install resolved        'rebuild-tests': 'node-gyp rebuild --msvs_version=2013 --directory test',
+215 silly install resolved        docs: 'doc/.build.sh' },
+215 silly install resolved     contributors:
+215 silly install resolved      [ [Object],
+215 silly install resolved        [Object],
+215 silly install resolved        [Object],
+215 silly install resolved        [Object],
+215 silly install resolved        [Object],
+215 silly install resolved        [Object],
+215 silly install resolved        [Object] ],
+215 silly install resolved     devDependencies:
+215 silly install resolved      { bindings: '~1.2.1',
+215 silly install resolved        commander: '^2.8.1',
+215 silly install resolved        glob: '^5.0.14',
+215 silly install resolved        'node-gyp': '~3.0.1',
+215 silly install resolved        tap: '~0.7.1',
+215 silly install resolved        xtend: '~4.0.0' },
+215 silly install resolved     license: 'MIT',
+215 silly install resolved     bugs: { url: 'https://github.com/nodejs/nan/issues' },
+215 silly install resolved     homepage: 'https://github.com/nodejs/nan#readme',
+215 silly install resolved     _id: 'nan@2.3.5',
+215 silly install resolved     _shasum: '822a0dc266290ce4cd3a12282ca3e7e364668a08',
+215 silly install resolved     _resolved: 'https://registry.npmjs.org/nan/-/nan-2.3.5.tgz',
+215 silly install resolved     _from: 'nan@2.3.5',
+215 silly install resolved     _npmVersion: '3.3.6',
+215 silly install resolved     _nodeVersion: '5.0.0',
+215 silly install resolved     _npmUser: { name: 'kkoopa', email: 'bbyholm@abo.fi' },
+215 silly install resolved     dist:
+215 silly install resolved      { shasum: '822a0dc266290ce4cd3a12282ca3e7e364668a08',
+215 silly install resolved        tarball: 'https://registry.npmjs.org/nan/-/nan-2.3.5.tgz' },
+215 silly install resolved     maintainers: [ [Object], [Object] ],
+215 silly install resolved     _npmOperationalInternal:
+215 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+215 silly install resolved        tmp: 'tmp/nan-2.3.5.tgz_1464707164994_0.4295874561648816' },
+215 silly install resolved     directories: {},
+215 silly install resolved     readme: 'ERROR: No README data found!' },
+215 silly install resolved   { name: 'bindings',
+215 silly install resolved     description: 'Helper module for loading your native module\'s .node file',
+215 silly install resolved     keywords: [ 'native', 'addon', 'bindings', 'gyp', 'waf', 'c', 'c++' ],
+215 silly install resolved     version: '1.2.1',
+215 silly install resolved     author:
+215 silly install resolved      { name: 'Nathan Rajlich',
+215 silly install resolved        email: 'nathan@tootallnate.net',
+215 silly install resolved        url: 'http://tootallnate.net' },
+215 silly install resolved     repository:
+215 silly install resolved      { type: 'git',
+215 silly install resolved        url: 'git://github.com/TooTallNate/node-bindings.git' },
+215 silly install resolved     main: './bindings.js',
+215 silly install resolved     bugs: { url: 'https://github.com/TooTallNate/node-bindings/issues' },
+215 silly install resolved     homepage: 'https://github.com/TooTallNate/node-bindings',
+215 silly install resolved     license: 'MIT',
+215 silly install resolved     gitHead: 'e404152ee27f8478ccbc7122ee051246e8e5ec02',
+215 silly install resolved     _id: 'bindings@1.2.1',
+215 silly install resolved     scripts: {},
+215 silly install resolved     _shasum: '14ad6113812d2d37d72e67b4cacb4bb726505f11',
+215 silly install resolved     _from: 'bindings@1.2.1',
+215 silly install resolved     _npmVersion: '1.4.14',
+215 silly install resolved     _npmUser: { name: 'tootallnate', email: 'nathan@tootallnate.net' },
+215 silly install resolved     maintainers: [ [Object], [Object] ],
+215 silly install resolved     dist:
+215 silly install resolved      { shasum: '14ad6113812d2d37d72e67b4cacb4bb726505f11',
+215 silly install resolved        tarball: 'https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz' },
+215 silly install resolved     directories: {},
+215 silly install resolved     _resolved: 'https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz',
+215 silly install resolved     readme: 'ERROR: No README data found!' } ]
+216 info install nan@2.3.5 into C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt
+217 info install bindings@1.2.1 into C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt
+218 info installOne nan@2.3.5
+219 verbose installOne of nan to C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt not in flight; installing
+220 verbose correctMkdir C:\Users\avi kalra\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+221 info installOne bindings@1.2.1
+222 verbose installOne of bindings to C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt not in flight; installing
+223 verbose correctMkdir C:\Users\avi kalra\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+224 verbose lock using C:\Users\avi kalra\AppData\Roaming\npm-cache\_locks\nan-9db68b64b131723b.lock for C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt\node_modules\nan
+225 silly install write writing nan 2.3.5 to C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt\node_modules\nan
+226 verbose unbuild node_modules\bcrypt\node_modules\nan
+227 silly gentlyRm C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt\node_modules\nan is being purged from base C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app
+228 verbose gentlyRm don't care about contents; nuking C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt\node_modules\nan
+229 verbose lock using C:\Users\avi kalra\AppData\Roaming\npm-cache\_locks\bindings-9e52d284de15e598.lock for C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt\node_modules\bindings
+230 verbose tar unpack C:\Users\avi kalra\AppData\Roaming\npm-cache\nan\2.3.5\package.tgz
+231 verbose tar unpacking to C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt\node_modules\nan
+232 silly gentlyRm C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt\node_modules\nan is being purged
+233 verbose gentlyRm don't care about contents; nuking C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt\node_modules\nan
+234 silly install write writing bindings 1.2.1 to C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt\node_modules\bindings
+235 silly gunzTarPerm modes [ '777', '666' ]
+236 silly gunzTarPerm extractEntry package.json
+237 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+238 silly gunzTarPerm extractEntry README.md
+239 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+240 silly gunzTarPerm extractEntry include_dirs.js
+241 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 438 ]
+242 verbose unbuild node_modules\bcrypt\node_modules\bindings
+243 silly gentlyRm C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt\node_modules\bindings is being purged from base C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app
+244 verbose gentlyRm don't care about contents; nuking C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt\node_modules\bindings
+245 verbose tar unpack C:\Users\avi kalra\AppData\Roaming\npm-cache\bindings\1.2.1\package.tgz
+246 verbose tar unpacking to C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt\node_modules\bindings
+247 silly gentlyRm C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt\node_modules\bindings is being purged
+248 verbose gentlyRm don't care about contents; nuking C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt\node_modules\bindings
+249 silly gunzTarPerm modes [ '777', '666' ]
+250 silly gunzTarPerm extractEntry package.json
+251 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+252 silly gunzTarPerm extractEntry nan_converters.h
+253 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 438 ]
+254 silly gunzTarPerm extractEntry LICENSE.md
+255 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 438 ]
+256 silly gunzTarPerm extractEntry doc/node_misc.md
+257 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 438 ]
+258 silly gunzTarPerm extractEntry doc/asyncworker.md
+259 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 438 ]
+260 silly gunzTarPerm extractEntry README.md
+261 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+262 silly gunzTarPerm extractEntry bindings.js
+263 silly gunzTarPerm modified mode [ 'bindings.js', 420, 438 ]
+264 silly gunzTarPerm extractEntry doc/callback.md
+265 silly gunzTarPerm modified mode [ 'doc/callback.md', 436, 438 ]
+266 silly gunzTarPerm extractEntry doc/converters.md
+267 silly gunzTarPerm modified mode [ 'doc/converters.md', 436, 438 ]
+268 silly gunzTarPerm extractEntry doc/errors.md
+269 silly gunzTarPerm modified mode [ 'doc/errors.md', 436, 438 ]
+270 silly gunzTarPerm extractEntry doc/maybe_types.md
+271 silly gunzTarPerm modified mode [ 'doc/maybe_types.md', 436, 438 ]
+272 silly gunzTarPerm extractEntry doc/methods.md
+273 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 438 ]
+274 silly gunzTarPerm extractEntry doc/new.md
+275 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 438 ]
+276 silly gunzTarPerm extractEntry doc/buffers.md
+277 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 438 ]
+278 silly gunzTarPerm extractEntry doc/object_wrappers.md
+279 silly gunzTarPerm modified mode [ 'doc/object_wrappers.md', 436, 438 ]
+280 verbose write writing to C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt\node_modules\bindings\package.json
+281 silly gunzTarPerm extractEntry doc/persistent.md
+282 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 438 ]
+283 silly gunzTarPerm extractEntry doc/scopes.md
+284 silly gunzTarPerm modified mode [ 'doc/scopes.md', 436, 438 ]
+285 info preinstall bindings@1.2.1
+286 verbose readDependencies loading dependencies from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt\node_modules\bindings\package.json
+287 silly gunzTarPerm extractEntry doc/script.md
+288 silly gunzTarPerm modified mode [ 'doc/script.md', 436, 438 ]
+289 silly gunzTarPerm extractEntry doc/string_bytes.md
+290 silly gunzTarPerm modified mode [ 'doc/string_bytes.md', 436, 438 ]
+291 silly gunzTarPerm extractEntry doc/v8_internals.md
+292 silly gunzTarPerm modified mode [ 'doc/v8_internals.md', 436, 438 ]
+293 silly gunzTarPerm extractEntry doc/v8_misc.md
+294 silly gunzTarPerm modified mode [ 'doc/v8_misc.md', 436, 438 ]
+295 silly gunzTarPerm extractEntry nan.h
+296 silly gunzTarPerm modified mode [ 'nan.h', 436, 438 ]
+297 silly gunzTarPerm extractEntry nan_callbacks.h
+298 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 438 ]
+299 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+300 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 438 ]
+301 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+302 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 438 ]
+303 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+304 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 438 ]
+305 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+306 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 438 ]
+307 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+308 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 438 ]
+309 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+310 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 438 ]
+311 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+312 silly gunzTarPerm modified mode [ 'nan_maybe_43_inl.h', 436, 438 ]
+313 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+314 silly gunzTarPerm modified mode [ 'nan_maybe_pre_43_inl.h', 436, 438 ]
+315 silly gunzTarPerm extractEntry nan_new.h
+316 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 438 ]
+317 silly gunzTarPerm extractEntry nan_object_wrap.h
+318 silly gunzTarPerm modified mode [ 'nan_object_wrap.h', 436, 438 ]
+319 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+320 silly gunzTarPerm modified mode [ 'nan_persistent_12_inl.h', 436, 438 ]
+321 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+322 silly gunzTarPerm modified mode [ 'nan_persistent_pre_12_inl.h', 436, 438 ]
+323 silly gunzTarPerm extractEntry nan_string_bytes.h
+324 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 438 ]
+325 silly gunzTarPerm extractEntry nan_typedarray_contents.h
+326 silly gunzTarPerm modified mode [ 'nan_typedarray_contents.h', 436, 438 ]
+327 silly gunzTarPerm extractEntry nan_weak.h
+328 silly gunzTarPerm modified mode [ 'nan_weak.h', 436, 438 ]
+329 silly gunzTarPerm extractEntry CHANGELOG.md
+330 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 438 ]
+331 silly gunzTarPerm extractEntry tools/package.json
+332 silly gunzTarPerm modified mode [ 'tools/package.json', 436, 438 ]
+333 silly gunzTarPerm extractEntry tools/README.md
+334 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 438 ]
+335 silly gunzTarPerm extractEntry tools/1to2.js
+336 silly gunzTarPerm modified mode [ 'tools/1to2.js', 509, 511 ]
+337 verbose readDependencies loading dependencies from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt\node_modules\bindings\package.json
+338 silly install resolved []
+339 verbose about to build C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt\node_modules\bindings
+340 info build C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt\node_modules\bindings
+341 info linkStuff bindings@1.2.1
+342 silly linkStuff bindings@1.2.1 has C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt\node_modules as its parent node_modules
+343 verbose linkBins bindings@1.2.1
+344 verbose linkMans bindings@1.2.1
+345 verbose rebuildBundles bindings@1.2.1
+346 info install bindings@1.2.1
+347 info postinstall bindings@1.2.1
+348 verbose unlock done using C:\Users\avi kalra\AppData\Roaming\npm-cache\_locks\bindings-9e52d284de15e598.lock for C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt\node_modules\bindings
+349 verbose write writing to C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt\node_modules\nan\package.json
+350 info preinstall nan@2.3.5
+351 verbose readDependencies loading dependencies from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt\node_modules\nan\package.json
+352 verbose readDependencies loading dependencies from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt\node_modules\nan\package.json
+353 silly install resolved []
+354 verbose about to build C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt\node_modules\nan
+355 info build C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt\node_modules\nan
+356 info linkStuff nan@2.3.5
+357 silly linkStuff nan@2.3.5 has C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt\node_modules as its parent node_modules
+358 verbose linkBins nan@2.3.5
+359 verbose linkMans nan@2.3.5
+360 verbose rebuildBundles nan@2.3.5
+361 info install nan@2.3.5
+362 info postinstall nan@2.3.5
+363 verbose unlock done using C:\Users\avi kalra\AppData\Roaming\npm-cache\_locks\nan-9db68b64b131723b.lock for C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt\node_modules\nan
+364 verbose about to build C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt
+365 info build C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt
+366 info linkStuff bcrypt@0.8.7
+367 silly linkStuff bcrypt@0.8.7 has C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules as its parent node_modules
+368 verbose linkBins bcrypt@0.8.7
+369 verbose linkMans bcrypt@0.8.7
+370 verbose rebuildBundles bcrypt@0.8.7
+371 verbose rebuildBundles [ 'bindings', 'nan' ]
+372 info install bcrypt@0.8.7
+373 verbose unsafe-perm in lifecycle true
+374 info bcrypt@0.8.7 Failed to exec install script
+375 verbose unlock done using C:\Users\avi kalra\AppData\Roaming\npm-cache\_locks\bcrypt-40c3eb22f606a9fc.lock for C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt
+376 verbose stack Error: bcrypt@0.8.7 install: `node-gyp rebuild`
+376 verbose stack Exit status 1
+376 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:217:16)
+376 verbose stack     at emitTwo (events.js:87:13)
+376 verbose stack     at EventEmitter.emit (events.js:172:7)
+376 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+376 verbose stack     at emitTwo (events.js:87:13)
+376 verbose stack     at ChildProcess.emit (events.js:172:7)
+376 verbose stack     at maybeClose (internal/child_process.js:829:16)
+376 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+377 verbose pkgid bcrypt@0.8.7
+378 verbose cwd C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app
+379 error Windows_NT 10.0.14393
+380 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--python=python2.7" "--msvs_version=2010"
+381 error node v4.6.1
+382 error npm  v2.15.9
+383 error code ELIFECYCLE
+384 error bcrypt@0.8.7 install: `node-gyp rebuild`
+384 error Exit status 1
+385 error Failed at the bcrypt@0.8.7 install script 'node-gyp rebuild'.
+385 error This is most likely a problem with the bcrypt package,
+385 error not with npm itself.
+385 error Tell the author that this fails on your system:
+385 error     node-gyp rebuild
+385 error You can get information on how to open an issue for this project with:
+385 error     npm bugs bcrypt
+385 error Or if that isn't available, you can get their info via:
+385 error
+385 error     npm owner ls bcrypt
+385 error There is likely additional logging output above.
+386 verbose exit [ 1, true ]
+387 verbose unbuild node_modules\bcrypt
+388 info preuninstall bcrypt@0.8.7
+389 info uninstall bcrypt@0.8.7
+390 verbose unbuild rmStuff bcrypt@0.8.7 from C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules
+391 info postuninstall bcrypt@0.8.7
+392 silly gentlyRm C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt is being purged from base C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app
+393 verbose gentlyRm don't care about contents; nuking C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt
+394 silly vacuum-fs purging C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules\bcrypt
+395 silly vacuum-fs quitting because other entries in C:\node projects\code-samples-master\blog-posts\how-to-build-your-own-uber-for-x-app\node_modules
