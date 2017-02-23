@@ -23,7 +23,7 @@
     var socket = io();
 
     var map, marker;
-    mapboxgl.accessToken = '<INSERT YOUR TOKEN HERE>';
+    mapboxgl.accessToken = 'pk.eyJ1IjoiYXZpc2luZ2gxOSIsImEiOiJjaXo2ejBjdm4wMDJiMzFvMTJqbmEzM2RjIn0.d5m3bLLrJMVzHjI_3InOJQ';
 
     $.ajax({
         url: '/requests/info',
@@ -34,7 +34,7 @@
             var map = new mapboxgl.Map({
                 container: 'map',
                 style: 'mapbox://styles/mapbox/dark-v9',
-                center: [77.64115449999997, 12.9718915],
+                center: [18.5204, 73.8567],
                 zoom: 10
             });
 
@@ -59,7 +59,7 @@
                             ]
                         },
                         "circle-radius": 20,
-                        "circle-blur": 1 
+                        "circle-blur": 1
                     }
                 });
             });

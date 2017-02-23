@@ -66,12 +66,12 @@
             }).addTo(map);
         });
 
-        L.mapbox.accessToken = '<INSERT YOUR TOKEN HERE>';
+        L.mapbox.accessToken = 'pk.eyJ1IjoiYXZpc2luZ2gxOSIsImEiOiJjaXo2ejBjdm4wMDJiMzFvMTJqbmEzM2RjIn0.d5m3bLLrJMVzHjI_3InOJQ';
 
         map = L.mapbox.map('map', 'mapbox.streets');
-        map.setView([12.9718915, 77.64115449999997], 15);
+        map.setView([18.5204, 73.8567], 15);
 
-        marker = L.marker([12.9718915, 77.64115449999997]).addTo(map);
+        marker = L.marker([18.5204, 73.8567]).addTo(map);
 
         map.addControl(L.mapbox.geocoderControl('mapbox.places', {
             autocomplete: true,
