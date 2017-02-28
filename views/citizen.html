@@ -43,9 +43,9 @@
         requestDetails = {
             citizenId: userId,
             location: {
-                address: "Indiranagar, Bengaluru, Karnataka 560038, India",
-                latitude: 12.9718915,
-                longitude: 77.64115449999997
+                address: "Koregaon Park, Pune, Maharashtra, India",
+                latitude: 18.5362,
+                longitude: 73.8940
             }
         }
 
@@ -69,9 +69,9 @@
         L.mapbox.accessToken = 'pk.eyJ1IjoiYXZpc2luZ2gxOSIsImEiOiJjaXo2ejBjdm4wMDJiMzFvMTJqbmEzM2RjIn0.d5m3bLLrJMVzHjI_3InOJQ';
 
         map = L.mapbox.map('map', 'mapbox.streets');
-        map.setView([18.5204, 73.8567], 15);
+        map.setView([18.5362, 73.8940], 15);
 
-        marker = L.marker([18.5204, 73.8567]).addTo(map);
+        marker = L.marker([18.5362, 73.8940]).addTo(map);
 
         map.addControl(L.mapbox.geocoderControl('mapbox.places', {
             autocomplete: true,

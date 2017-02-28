@@ -16,7 +16,7 @@ app.use(bodyParser.json({
     limit: '5mb'
 }));
 
-app.set('views', 'views'); 
+app.set('views', 'views');
 app.use(express.static('./public'));
 app.set('view engine', 'html');
 app.engine('html', consolidate.underscore);
@@ -29,9 +29,9 @@ var io = require('socket.io')(server); //new socket.io instance
 server.listen(portNumber, function() {
     console.log('Server listening at port ' + portNumber);
 
-    var url = 'mongodb://localhost:27017/myUberApp'; //Db name
+    var url = 'mongodb://localhost:27017/myHelpApp'; //Db name
     mongoClient.connect(url, function(err, db) {
-        console.log("Connected to Database");
+        console.log("Connected to Database"+url);
 
         app.get('/citizen.html', function(req, res) {
             res.render('citizen.html', {
