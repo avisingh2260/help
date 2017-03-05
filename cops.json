@@ -79,36 +79,3 @@
         ]
     }
 }
-{
-    "userId" : "06",
-    "displayName" : "Cop 6",
-    "phone" : "06",
-    "email" : "cop06@gmail.com",
-    "earnedRatings" : 21,
-    "totalRatings" : 25,
-    "location" : {
-        "type" : "Point",
-        "address" : "869, 12th Main Rd, Koramangala 3 Block, Koramangala, Bengaluru, Karnataka 560034, India",
-        "coordinates" : [
-            77.62710779999998,
-            12.9279232
-        ]
-    }
-
-}
-{
-    "userId" : "07",
-    "displayName" : "Cop 7",
-    "phone" : "07",
-    "email" : "cop07@gmail.com",
-    "earnedRatings" : 18,
-    "totalRatings" : 25,
-    "location" : {
-        "type" : "Point",
-        "address" : "7th Cross Rd, Domlur I Stage, Stage 2, Domlur, Bengaluru, Karnataka 560071, India",
-        "coordinates" : [
-            77.63873160000003,
-            12.9609857
-        ]
-    }
-}

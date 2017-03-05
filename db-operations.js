@@ -10,7 +10,7 @@ function fetchNearestCops(db, coordinates, callback) {
                         type: "Point",
                         coordinates: coordinates
                     },
-                    $maxDistance: 2000
+                    $maxDistance: 10000
                 }
             }
         }).toArray(function(err, results) {
